@@ -1,1 +1,2 @@
 pandas
+hypothesis==6.88.1
