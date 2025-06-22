@@ -41,7 +41,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Install pytest
-        run: pip install pytest
-
+        run: |
+          pip install pytest
+          pip install hypothesis==6.88.1
       - name: Run tests
         run: pytest
